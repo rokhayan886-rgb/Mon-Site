@@ -1,0 +1,68 @@
+body{
+    background-image: url(./../images/concert.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+    
+}
+.concert a:not(:last-of-type)::after{
+    content: '|';
+    padding: 0 5px;
+    color: white;
+}
+time{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+} 
+section{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 50px;
+    color: white;
+
+}
+.concert a{
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: fangsong;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: white;
+    text-decoration: none;
+}
+.concert h1{
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-family: fangsong;
+    color: #ffeab6;
+}
+.concert p{
+    text-transform: uppercase;
+    border: 6px solid #ffeab6;
+    width: 100px;
+    background-color: #ffeab6;
+    margin-left: 47px;
+    margin-bottom: 20px;
+}
+.son1{
+    display: flex;
+}
+.concert p:hover{
+color: black;
+
+} 
+.concert h1::first-letter{
+    width: 200px;
+    font-size: 200px;
+}
+.concert a:hover{
+    color: red;
+}
+@media(max-width:1000px){
+    .son1{
+        display: block;
+    }
+  }

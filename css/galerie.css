@@ -1,0 +1,62 @@
+body{
+    background-image: url(./../images/dannie-jing-3GZlhROZIQg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.images{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+
+
+}
+
+main h1{
+    text-align: justify;
+    margin-bottom: 90px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-top: 90px;
+    font-weight: normal;
+}
+main h1::first-letter{
+    color:#ffeab6;
+    font-size: 80px;
+    
+  }
+main{
+  
+    width: 50%;
+    margin: auto; 
+    margin-bottom: 200px; 
+    
+}
+ main img{
+    width: 70%;
+    height: 172px;
+    transition: 3s;
+    
+}
+main img:hover{
+    transform: scale(1.5);
+    border-radius: 50px;
+
+} 
+@media(max-width:1200px){
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+}
+
+@media(max-width:1000px){
+    .images{
+        display: block;
+    }
+}

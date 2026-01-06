@@ -1,0 +1,84 @@
+body{
+    background-image: url(./../images/info.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+ .bloc img{
+    width: 40px;
+    height: 40px;
+    margin-top:50px;
+    margin-left: 50px;
+
+}
+.img1 , .img2 , .img3 , .img4{
+    display: flex;
+
+}
+
+section h3{
+    border-top: 6px solid #ffeab6;
+    color: white;
+    width: 120px;
+    font-family: auto;
+    font-size: xx-large;
+    margin-left: 50px;
+
+}
+section h4{
+    font-size: x-large;
+
+}
+section {
+        margin-left: 20px; 
+        color: white;
+} section p{
+    font-size: large;
+}
+section{
+  
+  margin: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.info{
+    margin-left: 50px;
+}
+input{
+    height: 40px;
+    width: 230px;
+}
+button{
+    width: 100px;
+    height: 40px;
+
+}
+section h4{
+    color: white;
+}
+section p:hover{
+    color: red;
+}
+section h3::first-letter{
+    font-size: 50px;
+    color: #ffeab6;
+
+}
+.bloc , .info{
+    display: grid;
+    grid-template-columns: ;
+
+}
+.ensemble{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media(max-width:1000px){
+  .ensemble{
+    display: block;
+    margin-left: 30%;
+  } 
+
+}
